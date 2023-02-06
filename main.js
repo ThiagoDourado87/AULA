@@ -54,6 +54,8 @@ const mediaFinal=calculaMediaFinal();
     document.getElementById('media-final-resultado').innerHTML = mediaFinal >=notaMinima ? spanAprovado : spanReprovado;
 }
 
+
+
 function calculaMediaFinal(){
     let somaDasNotas=0;
 
